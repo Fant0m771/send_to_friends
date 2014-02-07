@@ -1,0 +1,107 @@
+/* Theme ctools modal form */
+.ctools-modal-content.send_to_friends .modal-title {
+  text-transform: capitalize;
+}
+
+div.ctools-modal-content.send_to_friends .form-item label {
+  width: auto;
+}
+
+.ctools-modal-content.send_to_friends .modal-top {
+  padding: 4px 10px 4px 15px;
+}
+
+.ctools-modal-content.send_to_friends .form-item-send-to-friends-mail .description {
+  font-size: 0.7em;
+  line-height: 0.7em;
+}
+
+.ctools-modal-content.send_to_friends .form-item label {
+  float: none;
+}
+
+.ctools-modal-content.send_to_friends .form-item input {
+  padding: 1%;
+  width: 98%;
+}
+
+.ctools-modal-content.send_to_friends .form-submit {
+  display: block;
+  clear: both;
+}
+
+.ctools-modal-content.send_to_friends .modal-content {
+  padding: 2.5%;
+}
+
+.ctools-modal-content.send_to_friends #comment_area .fieldset-wrapper,
+.ctools-modal-content.send_to_friends #comment_area fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.ctools-modal-content.send_to_friends #comment_area fieldset {
+  position: inherit;
+  border: 0;
+}
+
+.ctools-modal-content.send_to_friends #comment_area .form-textarea-wrapper {
+  margin: 0;
+}
+
+.ctools-modal-content.send_to_friends .form-type-checkbox {
+  float: left;
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+.ctools-modal-content.send_to_friends .form-type-checkbox input {
+  width: auto;
+  margin: 0;
+}
+
+.ctools-modal-content.send_to_friends .form-type-checkbox + .suffix {
+  line-height: 0.8em;
+  font-size: 0.8em;
+}
+
+@media all and (max-width: 600px) {
+  .ctools-modal-content.send_to_friends {
+    width: auto;
+  }
+}
+
+/* default theme */
+.ctools-modal-content.send_to_friends.default .modal-top {
+  background-color: #8a8acb;
+}
+
+/* simple theme*/
+.ctools-modal-content.send_to_friends.simple,
+.ctools-modal-content.send_to_friends.simple #comment_area textarea {
+  border-radius: 10px;
+  border: 3px solid #8a8acb;
+}
+
+.ctools-modal-content.send_to_friends.simple .modal-top {
+  border-radius: 10px 10px 0 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.ctools-modal-content.send_to_friends.simple .modal-title {
+  color: #585858;
+  text-transform: uppercase;
+}
+
+.ctools-modal-content.send_to_friends.simple .form-item label {
+  text-transform: uppercase;
+}
+
+.ctools-modal-content.send_to_friends.simple .form-item input.form-text {
+  border-radius: 8px;
+  border: 3px solid #8a8acb;
+  width: 96.6%;
+  font-size: 1em;
+  font-weight: bold;
+}

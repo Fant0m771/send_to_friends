@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Install, update, and uninstall functions for the send to friends module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function send_to_friends_uninstall() {
+  // Delete variables.
+  variable_del('send_to_friends_animation');
+  variable_del('send_to_friends_animation_speed');
+  variable_del('send_to_friends_body');
+  variable_del('send_to_friends_disallowed_symbols');
+  variable_del('send_to_friends_get_url_setting');
+  variable_del('send_to_friends_how_many_addresses');
+  variable_del('send_to_friends_link_text');
+  variable_del('send_to_friends_show_comment');
+  variable_del('send_to_friends_show_friend_field');
+  variable_del('send_to_friends_subject');
+  variable_del('send_to_friends_theme');
+  variable_del('send_to_friends_thanks_message');
+  variable_del('send_to_friends_thanks_message_in_popup');
+  variable_del('send_to_friends_window_width');
+}

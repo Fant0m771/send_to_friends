@@ -1,0 +1,11 @@
+name = Send to friends
+description = Provide to discover interesting page to your fiends.
+package = "Other"
+dependencies[] = ctools
+core = 7.x
+configure = admin/config/content/send_to_friends
+
+stylesheets[all][] = css/send_to_friends.css
+scripts[] = js/send_to_friends.js
+
+files[] = send_to_friends_helper.inc
